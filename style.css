@@ -111,8 +111,16 @@ nav ul li a{
 }
 
 .form-btn{
-    border: 2px solid #373636;
-    color: #373636;
+    border-radius: 20px;
+    border: 1px solid #12437a;
+    background-color: #12437a;
+    color: #ffffff;
+    font-size: : 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
 }
  
 button:active{
@@ -231,6 +239,12 @@ h2 {
 
 .form {
     text-align: center;
+    border: none;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #12437a;
 }
 
 input, 
@@ -239,7 +253,7 @@ textarea {
     border: none;
     padding: 12px 15px;
     margin: 8px 0;
-    width: 100%;
+    width: 80%;
     font-size: 0.8rem;
 }
 
