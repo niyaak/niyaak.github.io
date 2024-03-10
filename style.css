@@ -240,27 +240,9 @@ textarea {
     font-size: 0.8rem;
 }
 
-input:focus,
-textarea:focus {
-    outline: 1px solid #12437a;
-}
-
-button {
-    border-radius: 20px;
-    border: 1px solid #12437a;
-    background-color: #12437a;
-    color: #ffffff;
-    font-size: : 12px;
-    font-weight: bold;
-    padding: 12px 45px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: transform 80ms ease-out;
-}
-
 button:hover {
     opacity: 0.7;
-    
+
 }
 
 footer p{
