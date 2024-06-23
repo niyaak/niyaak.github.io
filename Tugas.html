@@ -28,28 +28,23 @@
     <style>
         .video-container {
             position: relative;
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
+            width: 90%; /* Ukuran video 90% dari lebar halaman */
+            max-width: 1000px; /* Maksimum lebar video */
+            margin: auto; /* Tengahkan video */
         }
 
         .video-container video {
-            position: absolute;
-            top: 0;
-            left: 0;
             width: 100%;
-            height: 100%;
-            object-fit: cover;
+            height: auto;
+            display: block;
         }
 
         @media (max-width: 768px) {
             .video-container {
-                height: 50vh; /* Adjust height for smaller screens */
+                width: 100%; /* Ukuran video 100% untuk layar seluler */
             }
         }
+
         .center-content {
           text-align: center;
         }
